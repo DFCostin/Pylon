@@ -1,0 +1,60 @@
+.titel {
+    width: 100%;
+
+    h1 {
+    color: red;
+     text-align: center;
+     font-size: 15vh;
+    }
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.insertJSON {
+    margin-bottom: 20px;
+}
+
+.fileLabel {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.fileInput {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.downloadPDF button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.downloadPDF button:hover {
+    background-color: #45a049;
+}
+
+.downloadPDF button:active {
+    background-color: #3e8e41;
+}
+
+.downloadPDF button a {
+    text-decoration: none;
+    color: inherit;
+}
